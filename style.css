@@ -54,7 +54,6 @@ h2 {
   line-height: 1.4;
 }
 h1 {
-  color: #9d4269;
   font-size: clamp(1.55rem, 7vw, 3.2rem);
 }
 h2 {

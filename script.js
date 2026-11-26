@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
     page
       .querySelectorAll(".success-message, .decline-message")
       .forEach((message) => message.remove());
-    const message = document.createElement("p");
+    const message = document.createElement("h2");
     message.className = className;
     message.setAttribute("role", "status");
     message.textContent = text;
